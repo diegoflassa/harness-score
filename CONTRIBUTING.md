@@ -32,6 +32,10 @@ summaries that ship in `packages/cli/CHANGELOG.md` should also be in English,
 with explicit `@username` credit when someone other than the merge author
 contributed the change.
 
+Maintainers helping on a **fork PR** should push fixes to the PR's head
+branch so CI and review stay on that PR — not to `main` locally ahead of
+`origin/main`.
+
 ## Project layout
 
 ```
